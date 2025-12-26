@@ -10,16 +10,16 @@
 ```text
 backend/
 ├── src/
-│   ├── controllers/   # Business logic for APIs
-│   ├── routes/        # API route definitions
-│   ├── middleware/    # Auth, RBAC, tenant isolation
-│   ├── models/        # Database query logic
-│   ├── utils/         # Helper functions (JWT, audit logs)
-│   ├── config/        # Database and environment config
-│   └── app.js         # Express app entry point
-├── migrations/        # SQL migration files
-├── seeds/             # Seed data SQL
-├── Dockerfile         # Backend Docker configuration
+│   ├── controllers/   
+│   ├── routes/        
+│   ├── middleware/    
+│   ├── models/        
+│   ├── utils/         
+│   ├── config/        
+│   └── app.js         
+├── migrations/        
+├── seeds/             
+├── Dockerfile         
 ├── package.json
 └── .env
 ```
@@ -29,15 +29,15 @@ backend/
 ```text
 frontend/
 ├── src/
-│   ├── components/    # Reusable UI components
-│   ├── pages/         # Page-level components
-│   ├── services/      # API calls (Axios)
-│   ├── context/       # Auth and global state
-│   ├── routes/        # Protected routes
-│   ├── utils/         # Helper utilities
+│   ├── components/    
+│   ├── pages/         
+│   ├── services/      
+│   ├── context/       
+│   ├── routes/        
+│   ├── utils/         
 │   └── App.js
 ├── public/
-├── Dockerfile         # Frontend Docker configuration
+├── Dockerfile         
 └── package.json
 ```
 
@@ -81,7 +81,7 @@ FRONTEND_URL=http://frontend:3000
 ### Step 1: Clone Repository
 
 ```bash
-git clone [https://github.com/Lova-Reddy/multi-tenant-saas.git](https://github.com/Lova-Reddy/multi-tenant-saas.git)
+git clone https://github.com/Lova-Reddy/multi-tenant-saas.git
 cd multi-tenant-saas
 ```
 
